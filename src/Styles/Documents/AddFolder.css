@@ -1,0 +1,9 @@
+.multDocFol{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+
+.multDocFol::-webkit-scrollbar{
+    width: 5px !important;
+}

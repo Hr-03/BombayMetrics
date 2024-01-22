@@ -1,0 +1,61 @@
+.docImg{
+    width: -webkit-fill-available;
+    /* height: 300px; */
+}
+
+.upDoc{
+    background-color: #ED5A1B;
+    color: white;
+}
+
+
+.multDoc{
+    height: 550px;
+    overflow-y: scroll;
+}
+
+.multDoc::-webkit-scrollbar{
+    width: 5px !important;
+}
+
+.docRejBtn{
+    background-color: transparent;
+    color: #ED5A1B;
+    border-color: #ED5A1B;
+    float: right;
+}
+
+.docSaveBtn{
+    background-color: #ED5A1B;
+    color: white;
+
+}
+
+
+div:where(.swal2-container) {
+    padding: 0.625em !important;
+}
+
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+    padding: 0 0 1.25em !important;
+}
+
+div:where(.swal2-icon) {
+    margin: 2.5em auto 0.6em !important;
+}
+
+
+div:where(.swal2-container) div:where(.swal2-actions) {
+
+    margin: 1.25em auto 0 !important;
+    padding: 0 !important;
+}
+
+
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+
+    margin: 0.3125em !important;
+    padding: 0.625em 1.1em !important;
+}

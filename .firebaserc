@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "bombaymetrics-8c830"
+  },
+  "targets": {
+    "bombaymetrics-8c830": {
+      "hosting": {
+        "bombaymetrics": [
+          "bombaymetrics.web.app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

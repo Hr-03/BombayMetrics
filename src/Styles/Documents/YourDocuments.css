@@ -1,0 +1,171 @@
+.igicon{
+    background-color: transparent;
+    border-right: none;
+    border-color: black;
+}
+.docTitle{
+    font-size: 20px;
+}
+
+.hrline{
+    height: 2px !important;
+    background-color: #8E8E8E;
+}
+.igsrch{
+    border-left: none !important;
+    border-color: black;
+}
+
+.srchBtn{
+    background-color: #ED5A1B;
+    color: white;
+}
+
+.otherBtns{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.addDoc{
+background-color: #ED5A1B;
+color: white;
+float: right;
+}
+
+.threedot{
+    float: right;
+}
+
+.foldTitle{
+    font-size: 18px;
+font-weight: 500;
+white-space: nowrap;
+  overflow: hidden;
+text-overflow: ellipsis !important;
+}
+
+
+.alldocs{
+    max-height: 44em;
+    overflow-y: scroll;
+}
+
+.alldocs::-webkit-scrollbar{
+    width: 1px;
+}
+
+.foldContent{
+    color: #858585;
+
+}
+.foldCrd{
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+.dm{
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.10);
+    border: none;
+}
+/* .foldersorfiles{
+    display: grid;
+    grid-template-columns: ;
+} */
+
+
+.addFol{
+background-color: #008000;
+color: white;
+float: right;
+}
+
+
+.modal-dialog {
+    
+    margin: 0.5rem !important;
+}
+
+.modal-header {
+    padding: 1rem 1rem !important;
+}
+
+.modal-body {
+    padding: 1rem !important; 
+}
+
+
+.modal-footer {
+    padding: 0.75rem !important;
+}
+
+.modal-footer>* {
+    margin: 0.25rem !important;
+}
+
+
+
+.modal.fade .modal-dialog {
+    /* transform: translateX(50px) !important; */
+    margin: auto !important;
+}
+
+.mdlcloseBtn{
+    padding: 0.375rem 0.75rem !important;
+    border-color: #ED5A1B;
+    color: #ED5A1B;
+}
+
+.mdlsaveBtn{
+    padding: 0.375rem 0.75rem !important;
+background-color: #ED5A1B;
+    color: white;
+
+}
+
+
+.saveTeamBtn{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.teamTbl{
+    max-height: 300px;
+    overflow-y: scroll !important;
+}
+
+
+.teamTbl tbody tr{
+    border: none !important;
+    border-bottom-width:0px !important; 
+}
+
+
+.teamTbl thead th{
+    border-bottom-width:1px !important; 
+    border-right: 1px dashed black !important;
+
+}
+
+
+.teamTbl>:not(caption)>*>* {
+    border-bottom-width:0px !important; 
+    border-right: 1px dashed black !important;
+
+}
+
+.approvertd{
+    border-right: none !important;
+}
+
+
+.req-t{
+    color: red;
+}
